@@ -34,7 +34,6 @@ body, footer {
   position: absolute;
   top: 60%; /* Adjust the percentage to position the line vertically */
   left: 100px; /* Adjust the left position to start from the right edge of the logo */
-  right: calc(50% +1px);
   width: calc(100% - 45px); /* Adjust the width to span from the logo to the right edge */
   height: 1px; /* Adjust the height of the line */
   background-color: black; /* Change the color of the line */
