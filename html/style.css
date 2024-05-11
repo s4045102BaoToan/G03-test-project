@@ -28,7 +28,7 @@ body, footer {
     font-size: 24px;
     font-family: Helvetica;
   }
-  .top, .mid, .bot {
+  .top, .mid, .bot  {
     color: #f1f1f1;
     padding: 10px;
     border: black;
@@ -42,7 +42,7 @@ body, footer {
     position: absolute;
     top: 60%; /* Adjust the percentage to position the line vertically */
     right: 0;
-    width: 91.85%;
+    width: 94.8%;
     height: 1px; /* Adjust the height of the line */
     background-color: black; /* Change the color of the line */
     z-index: 1; /* Ensure the line appears above other content */
