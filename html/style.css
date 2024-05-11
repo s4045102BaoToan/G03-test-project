@@ -14,14 +14,6 @@ body, footer {
     display: flex; /* Use flexbox for positioning */
     align-items: center; /* Align items vertically */
   }
-  
-  .logo-box {
-    width: 50px; /* Width of the box */
-    height: 50px; /* Height of the box */
-    background-color: #ccc; /* Background color of the box */
-    margin-left: 10px; /* Margin between the logo and the box */
-  }
-  
   .website-name {
     margin-left: 10px; /* Margin between the box and the website name */
     color: black;
@@ -38,15 +30,18 @@ body, footer {
     
 }
 .top::before {
-    content: '';
-    position: absolute;
-    top: 60%; /* Adjust the percentage to position the line vertically */
-    right: 0;
-    width: 94.8%;
-    height: 1px; /* Adjust the height of the line */
-    background-color: black; /* Change the color of the line */
-    z-index: 1; /* Ensure the line appears above other content */
+  content: '';
+  position: absolute;
+  top: 60%; /* Adjust the percentage to position the line vertically */
+  left: 100px; /* Adjust the left position to start from the right edge of the logo */
+  right: calc(50% +1px);
+  width: calc(100% - 45px); /* Adjust the width to span from the logo to the right edge */
+  height: 1px; /* Adjust the height of the line */
+  background-color: black; /* Change the color of the line */
+  z-index: 1; /* Ensure the line appears above other content */
 }
+
+    
 
 .navigations {
 position: absolute;
