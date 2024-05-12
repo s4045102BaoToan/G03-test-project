@@ -1,124 +1,77 @@
-
-body, footer {
-    background-color: #275685; /* Change the background color */
-    color: #000000; /* Change the default text color */
-    font-family: Arial, sans-serif; /* Change the default font */
+body{
+    background-color:rgba(200, 222, 231, 0.74) ;
 }
-
-  .img.top-image {
-    border-radius: 50%;
-    vertical-align: middle;
- }
-
- .logo-container {
-    display: flex; /* Use flexbox for positioning */
-    align-items: center; /* Align items vertically */
-  }
-  .website-name {
-    margin-left: 10px; /* Margin between the box and the website name */
-    color: black;
-    font-size: 24px;
-    font-family: Helvetica;
-  }
-  .top, .mid, .bot  {
-    color: #f1f1f1;
-    padding: 10px;
-    border: black;
-    background-color: white;
-    border-radius: 10px;
+.name{
+    font-size: 30px;
+    font-family: arial;
+    font-weight: bold;
+    display: inline;
     position: relative;
-    
+    bottom: 40px;
+    padding-left: 4px;
+    margin: 0;
 }
-.top::before {
-  content: '';
-  position: absolute;
-  top: 60%; /* Adjust the percentage to position the line vertically */
-  left: 100px; /* Adjust the left position to start from the right edge of the logo */
-  width: calc(100% - 45px); /* Adjust the width to span from the logo to the right edge */
-  height: 1px; /* Adjust the height of the line */
-  background-color: black; /* Change the color of the line */
-  z-index: 1; /* Ensure the line appears above other content */
+.logo-container{
+    border-radius: 50%;
+    padding: 0 0 0 2px;
 }
-
-    
-
-.navigations {
-position: absolute;
-top: 0;
-left: 0;
-width: 130%;
-text-align: center;
-font-size: 25px;
-padding: 40px 0;
-
-
+.box{
+    background-color: rgba(200, 222, 231, 0.74);
+    border-radius: 15px;
+    display: block;
+    top: 0;
+    left: 0;
+    position: relative;
 }
-.navigations a{ /* navigation's link */
-  margin: 80px;
-    text-decoration: none;
-    color: #666;
+.box::before{
+    content: '';
+    position: absolute;
+    top: 60%; 
+    left: 100px; 
+    width: calc(100% - 45px); 
+    height: 1px; 
+    background-color: black; 
+    z-index: 1; 
 }
-.navigations a:hover{ /* navigation when hover */
-  color: #000;
-}
-.in {
-color: black; 
-text-align: center;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
-}
-.in ul { 
-    list-style-type: none; /* remove the default order */
-    padding: 0; /* remove the default padding */
-    margin: 0; /* remove the default margin */
-}
-.in li {
-display: inline;   /* order on the same line */
-margin-right: 180px; /* change the spacing between text */
-}
-.dropdown{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-text-align: center;
-font-size: 25px;
-padding: 40px 0;
-display: flex;
-align-items: center;
-justify-content: center;
+.dropdown {
+    display: inline;
+    position: relative;
+    bottom: 40px;
+    padding-left: 150px;
+    margin: 0;
 }
 .dropdown button{
-  border: none;
-  background-color: white;
-  color:  black;
-  padding: 10px 15px;
-  cursor: pointer;
-  width: 100px;
-  height: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  top: -20px;
-  position: relative;
-  
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border: none;
+    background-color: rgba(200, 222, 231, 0.74);
+    color: rgb(49, 46, 46);
+    padding: 0px 7px;
+    cursor: pointer;
 }
 .dropdown a{
-  display: block;
-  color: black;
-  text-decoration: none;
-  padding: 10px 15px;
-  background-color: white;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    
 }
 .dropdown .basic-content{
-  background-color: grey;
-  position: absolute;
-  min-width: 100px;
-  box-shadow: 2px 2px 5px rgb(214, 194, 194)smoke;
-  display: none;
-  top: 100%;
-  
+    background-color: whitesmoke;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+    display:  none;
+    margin-left: 477px;
+
 }
 .dropdown:hover .basic-content{
-display: block;
+    display: block;
+}
+.dropdown:hover button{
+    color: hsla(186, 12%, 34%, 0.842);
+}
+.dropdown a:hover{
+    background-color:hsl(0, 0%, 90%) ;
 }
