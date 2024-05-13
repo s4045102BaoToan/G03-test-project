@@ -1,5 +1,5 @@
 body{
-    background-color:rgba(200, 222, 231, 0.74) ;
+    background-color:#275685 ;
 }
 .name{
     font-size: 30px;
@@ -16,13 +16,13 @@ body{
     padding: 0 0 0 2px;
 }
 .box{
-    background-color: rgba(200, 222, 231, 0.74);
+    background-color: rgba(200, 222, 231, 1);
     border-radius: 15px;
     display: block;
     top: 0;
     left: 0;
     position:fixed;
-    width: 2000px;
+    width: 100%;
 }
 .box a{
     text-decoration: none;
@@ -33,7 +33,7 @@ body{
     position: absolute;
     top: 60%; 
     left: 100px; 
-    width: calc(100% - 45px); 
+    width: 100%; 
     height: 1px; 
     background-color: black; 
     z-index: 1; 
@@ -43,7 +43,7 @@ body{
     position: relative;
     bottom: 40px;
     padding-left: 0px;
-    margin-left: 150px;
+    margin-left: 220px;
 }
 .dropdown button{
     font-size: 30px;
@@ -68,7 +68,7 @@ body{
     min-width: 100px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
     display:  none;
-    margin-left: 465px;
+    margin-left: 535px;
 
 }
 .dropdown:hover .basic-content{
@@ -109,7 +109,7 @@ body{
     min-width: 250px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
     display:  none;
-    margin-left: 650px;
+    margin-left: 720px;
 }
 .dropdown1:hover .advance-content{
     display: block;
