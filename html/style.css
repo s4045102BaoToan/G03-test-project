@@ -139,3 +139,21 @@ body{
 .about:hover a{
     color: hsla(186, 12%, 34%, 0.842);
 }
+
+/*------------------------------------------FOOTER------------------------------------------*/ 
+.logo-container-foot{
+    border-radius: 50%;
+    padding: 10px;
+}
+.footBox {
+    background-color: rgba(200, 222, 231, 1);
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    position:relative;
+    width: 100%;
+}
+.footerTitle a ,.basic-content a, .advance-content a, .aboutus-content a {
+    color: inherit;
+    text-decoration: none;
+}
