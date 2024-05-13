@@ -18,10 +18,9 @@ body{
 .box{
     background-color: rgba(200, 222, 231, 1);
     border-radius: 15px;
-    display: block;
     top: 0;
     left: 0;
-    position:fixed;
+    position:relative;
     width: 100%;
 }
 .box a{
