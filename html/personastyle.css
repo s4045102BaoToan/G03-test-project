@@ -1,0 +1,39 @@
+body{
+    background-color:#275685 ;
+}
+.personabox{
+    background-color: rgba(200, 222, 231, 0.74);
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    position:relative;
+    width: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#persona1{
+    margin:10px;
+    width:45%;
+}
+.titlebox{
+    background-color:rgb(187, 171, 235);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(135, 106, 224)  ;
+    width:calc(50%-10px);
+    margin:10px;
+}
+#nameage{
+    flex-direction: ;
+}
+#background{
+
+}
+#needs{
+    
+}
+#goals{
+    
+}
