@@ -21,7 +21,7 @@ body{
     top: 0;
     left: 0;
     position:relative;
-    width: 100%;
+   
 }
 .box a{
     text-decoration: none;
@@ -143,17 +143,33 @@ body{
 }
 
 /*------------------------------------------FOOTER------------------------------------------*/ 
+.box-foot{
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    position: relative;
+    height: 120px;
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    margin-top: 30px;
+}
 .logo-container-foot{
     border-radius: 0;
     padding: 10px;
 }
-.footBox {
-    background-color: white;
-    margin-top: 30px;
-    top: 0;
-    left: 0;
-    position:relative;
-    width: 100%;
+.title{
+    position: relative;
+    margin-left: 350px;
+    bottom: 120px;
+    
+}
+.title h3{
+    margin-top: 0;
+}
+.basic-content,
+.advance-content,
+.aboutus-content {
+  margin-bottom: 10px;
 }
 .footerTitle a ,.basic-content a, .advance-content a, .aboutus-content a {
     color: inherit;
