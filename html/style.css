@@ -68,6 +68,7 @@ body{
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
     display:  none;
     margin-left: 535px;
+    z-index: 2;
 
 }
 .dropdown:hover .basic-content{
@@ -109,6 +110,7 @@ body{
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
     display:  none;
     margin-left: 720px;
+    z-index: 2;
 }
 .dropdown1:hover .advance-content{
     display: block;
@@ -131,22 +133,22 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     border: none;
-    background-color: rgba(200, 222, 231, 0.74);
+    background-color: rgba(200, 222, 231, 1);
     color: rgb(49, 46, 46);
     padding: 0px 7px;
     text-decoration: none;
 }
 .about:hover a{
-    color: hsla(186, 12%, 34%, 0.842);
+    color: hsla(186, 12%, 34%, 1);
 }
 
 /*------------------------------------------FOOTER------------------------------------------*/ 
 .logo-container-foot{
-    border-radius: 50%;
+    border-radius: 0;
     padding: 10px;
 }
 .footBox {
-    background-color: rgba(200, 222, 231, 1);
+    background-color: white;
     margin-top: 30px;
     top: 0;
     left: 0;
