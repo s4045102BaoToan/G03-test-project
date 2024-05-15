@@ -94,15 +94,19 @@
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
     width: 80%;
     
     
+    
 }
-#persona1{
+#persona1, #persona2, #persona3{
     margin:10px;
     width:20%;
-    align-self: center;
+
+}
+#persona2{
+ object-fit: cover;
 }
 .titlebox{
     background-color:rgb(187, 171, 235);
