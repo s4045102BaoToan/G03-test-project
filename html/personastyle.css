@@ -70,10 +70,10 @@
 }
 
 .advance-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #b3a8a8;
 }
 .basic-content a:hover{
-    background-color: #f1f1f1;
+    background-color: #b3a8a8;
 }
 
 .dropdown:hover .basic-content {
@@ -88,20 +88,21 @@
     font-size: 20px;
     font-weight: bold;
 }
+/*-----------------------------------------------------------*/
 .personabox{
     background-color: rgba(200, 222, 231, 0.74);
-    margin-top: 30px;
-    top: 0;
-    left: 0;
-    position:relative;
-    width: 33vw;
+    margin: 10px auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    
+    
 }
 #persona1{
     margin:10px;
-    width:45%;
+    width:20%;
+    align-self: center;
 }
 .titlebox{
     background-color:rgb(187, 171, 235);
@@ -109,8 +110,9 @@
     border-style: solid;
     border-width: 2px;
     border-color:rgb(135, 106, 224)  ;
-    width:calc(50%-10px);
+    width: auto;
     margin:10px;
+    align-self: center;
 }
 #nameage{
     
@@ -123,4 +125,7 @@
 }
 #goals{
     
+}
+h1{
+    text-align: center;
 }
