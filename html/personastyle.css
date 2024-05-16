@@ -153,3 +153,11 @@
 h1{
     text-align: center;
 }
+/*-------------------------------------------------------------------------*/
+.designer-box{
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 24px;
+    margin: 80px 600px;
+}
