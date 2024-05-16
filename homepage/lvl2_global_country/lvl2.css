@@ -1,3 +1,25 @@
+/*-------------------------------------------------------Content---------------------------------------------------------*/
+.outputType {
+    position:relative;
+    
+}
+.year {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.arrow {
+    transform: rotate(90deg);
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+.menuSpace{
+    position: relative;
+    height: 76px;
+}
 .top-menu {
     position: fixed;
     top: 0;
@@ -96,10 +118,11 @@
     font-weight: bold;
     margin-right:40px;
 }
+.body{
+    position: relative;
+}
 
-/*------------------------------------------------------------------------------------------------------------------------*/
 
-/*------------------------------------------------------------------------------------------------------------------------*/
 /*FOOTER*/
 .sitemap-footer {
     position: relative;
