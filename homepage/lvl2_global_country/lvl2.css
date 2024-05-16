@@ -1,9 +1,25 @@
 /*-------------------------------------------------------Content---------------------------------------------------------*/
+.output-global{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-color: aqua;
+    border-style: solid;
+    padding: 10px;
+}
 .outputType {
     position:relative;
     
 }
-.year {
+.containerOuterMost2-3{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.innerFlexbox1 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -11,9 +27,45 @@
     align-items: center;
     width: fit-content;
 }
+.innerFlexbox2 {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+    resize: both;
+    margin-right: 10px;
+    width: 170px;
+    
+}
+.innerFlexbox3{
+    position: relative;
+    font-size: 30px;
+    font-style: bold;
+    word-wrap: break-word;
+    resize: both;
+    width: auto;
+    margin: 0px;
+}
+.containerFlex2-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 649.5px;
+}
+#AvgCchange{
+    margin: 0px 5px 0px 5px;
+    word-wrap: break-word;
+}
+.avgValue{
+    margin: 0px;
+}
 .arrow {
     transform: rotate(90deg);
 }
+
 
 /*------------------------------------------------------------------------------------------------------------------------*/
 .menuSpace{
