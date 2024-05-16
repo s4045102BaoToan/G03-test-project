@@ -77,10 +77,10 @@
 }
 
 .advance-content a:hover {
-    background-color: #b3a8a8;
+    background-color: rgba(0,0,0,0.2);
 }
 .basic-content a:hover{
-    background-color: #b3a8a8;
+    background-color:rgba(0,0,0,0.2);
 }
 
 .dropdown:hover .basic-content {
