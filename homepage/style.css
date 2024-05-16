@@ -118,21 +118,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Optional: adjust the height as needed */
+    height: 50vh; 
 }
 
-.table {
-    border-collapse: separate;
+.table1, .table2 {
     border-spacing: 60px;
     padding: 0 20px 0 20px;
     border-style:none;
     box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76);
     -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76);
     -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76); 
+   margin:50px 50px;
 }
 .pic{
     margin:15px;
 }
+
 
 /*------------------------------------------STARTNOW------------------------------------------*/
 .normal {
