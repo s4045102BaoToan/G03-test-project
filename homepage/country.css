@@ -1,3 +1,68 @@
+body {
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.option-table {
+    width: 50%;
+    margin: 20px 40px;
+    border-collapse: collapse;
+    width: 100vh;
+}
+
+.option-table th, .option-table td {
+    margin: 30px;
+    text-align: left;
+}
+
+.option-table th {
+    background-color: #f2f2f2;
+}
+
+.option-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+select {
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.body-country {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 130px 100px 30px;
+    display: flex;
+    position: fixed;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-form {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    border-style: solid;
+    font-size: larger;
+    width: 100%;
+    
+}
+
+.search-button {
+    
+    margin: 0px 360px 10px 350px;
+    font-size: 16px;
+    border: 10px solid #ccc;
+    border-radius: 20px ;
+    color:black;
+   
+    
+}
+/*----------------------------------------------------------------------------*/
 .top-menu {
     position: fixed;
     top: 0;
@@ -96,116 +161,7 @@
     font-weight: bold;
     margin-right:40px;
 }
-/*------------------------------------------subtask1A------------------------------------------*/ 
-.Subtask{
-    position: relative;
-    top: 12vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    margin-top: 20px;
-}
-.tableInfo{
-    position:relative;
-    margin-top: 0px;
-}
-#subtasktitle{
-    margin-bottom:0px;
-}
-.subtask1A {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh; 
-    border-bottom: 2px solid rgba(0,0,0,0.2);
-}
-
-.table1, .table2, .table3{
-    border-spacing: 60px;
-    padding: 0 20px 0 20px;
-    border-style:none;
-    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76);
-    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76);
-    -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76); 
-   margin:50px 50px;
-}
-.pic{
-    margin:15px;
-}
-.table3{
-    margin: 50px 0px 50px 50px;
-}
-.global{
-    margin-left:30px;
-}
-
-
-/*------------------------------------------STARTNOW------------------------------------------*/
-.normal {
-    font-weight: normal;
-    margin-left: 10px; /* Margin between the box and the website name */
-        color: black;
-        font-size: 24px;
-        font-family: "Times New Roman", Times, serif;
-        padding-top:5px;
-        
-    }
-    
-.link {
-        float: left;
-        display: inline;
-        margin-left: 10px; /* Margin between the box and the website name */
-        color: black;
-        font-size: 24px;
-        font-family: "Times New Roman", Times, serif;
-        padding-top: 5px;
-     }
-.mid {
-        color: #f1f1f1;
-        padding: 20px;
-        border: black;
-        border-radius: 20px;
-        position: relative;
-        
-    }
-.in {
-        color: black; 
-        text-align: center;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        margin-bottom: 10px;
-        }
-.SubtaskStart{
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 60vh;
-            background-color: #f1f1f1;
-            margin-top: 30px 
-            
-        }   
-.link a{
-    text-decoration: none;
-    font-weight: 600;
-    color: green;
-}
-.link a:hover{
-    text-decoration: underline;
-}
-.bear{
-    border-radius: 7px;
-    box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76);
-    -webkit-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76);
-    -moz-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.76); 
-   margin:50px 50px;;
-}
-        
-
-/*------------------------------------------FOOTER------------------------------------------*/ 
+/*-----------------------------------------------------------------------------*/
 .sitemap-footer {
     position: relative;
     top:8vh;
@@ -255,5 +211,3 @@
     color: #000;
     text-decoration: underline;
 }
-
-
