@@ -290,3 +290,34 @@ select {
     margin: 0;
     box-sizing: border-box;
 }
+.body-country {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 130px 100px 30px;
+    display: flex;
+    position: fixed;
+
+}
+
+form {
+    display: flex;
+}
+
+.search-form {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    border-style: solid;
+    font-size: larger;
+}
+
+.search-button {
+    padding-bottom: 10px;
+    padding-left: 350px;
+    padding-right: 360px;
+    font-size: 16px;
+    border: 10px solid #ccc;
+    border-radius: 250px ;
+    color:black;
+    cursor: pointer;
+    
+}
