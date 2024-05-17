@@ -1,6 +1,7 @@
 body {
     margin-top: 130px;
     margin-bottom: 30px;
+    height: auto;
 }
 
 .option-table {
@@ -14,17 +15,12 @@ body {
     margin: 30px;
     text-align: left;
 }
-.option-table select{
+.option-table select:hover{
     cursor: pointer;
 }
 .option-table th {
     background-color: #f2f2f2;
 }
-
-.option-table tr:hover {
-    background-color: #f1f1f1;
-}
-
 select {
     width: 80%;
     padding: 5px;
@@ -69,6 +65,8 @@ form {
     color: black;
     padding: 10px 20px; 
     display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 140px;
 }
 /*----------------------------------------------------------------------------*/
 .top-menu {
@@ -178,7 +176,8 @@ form {
     justify-content: space-between;
     padding: 20px 20px 10px 20px;
     background-color: #f2f2f2;
-    margin-top: 30px;
+    margin-top: auto;
+    
     border-radius: 7px;
     border-top: 2px solid black;
 }
