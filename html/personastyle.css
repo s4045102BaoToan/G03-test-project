@@ -107,12 +107,14 @@
 }
 .ppp h2{
     text-align: center;
+    color: #edf7f6;
+    background-color: #222e50;
 }
 .personabox{
     background-color: rgba(200, 222, 231, 0.74);
     margin: 10px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     width: 80%;    
 }
