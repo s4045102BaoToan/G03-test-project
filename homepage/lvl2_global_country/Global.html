@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="lvl2.css">
+    <link rel="stylesheet" href="global.css">
     
 </head>
 
@@ -44,20 +44,98 @@
     </div>
 </body>
     
-    <!---------------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------CONTENT------------------------------------------------------>
     
+    <body-country>          
+        <form action="#" method="get">
+            <div class="Title">
+            <img src="global.jpg" alt="global">
+            <H1 class=Title>World</H1>
+            </div>
+            <div class="input">
+                <button type="submit" class="search-button">
+                    <table class="option-table">
+                        <tbody>
+                            <tr>
+                                <td>Year</td>
+                                <td>
+                                    <select name="Year">
+                                        <option value="" selected disabled>Select a year</option>
+                                        <option value="#">Option</option>
+                                        
+                                    </select>
+                                </td>
+                                <td>To</td>
+                                <td>
+                                    <select name="Year">
+                                        <option value="#">Option</option>
+                
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sort by</td>
+                                <td>
+                                    <select name="sort by">
+                                        <option value="#">Option</option>
+                                        
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Order by</td>
+                                <td>
+                                    <select name="Order by">
+                                        <option value="#">Option</option>
+                                        
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="UoM">Unit of Measurement</td>
+                                <td>
+                                    <select name="UoM">
+                                        <option value="" selected disabled>Unit of Measurement</option>
+                                        <option value="Raw">Raw</option>
+                                        <option value="Percentage">%</option>
+                                        
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="search-form">
+                    Search</div></button>
+                    </div>
+                </form>
+    </body-country>
 
-    
-    <div class="outputType">
-        <label for="raw/%">Output</label>
-            <select name="selctOutput" id="raw/%">
-                <option value="Raw">Raw</option>
-                <option value="Percentage">%</option>
-            </select>   
+
+    <!------->
+    <div class="output-global-pop">
+        <h1 class="From">From</h1>
+            <div class="innerFlexbox1">
+                <h1>startYear</h1>
+                <img src="arrow.png" class="arrow" width="40px" height="20px">
+                <h1>endYear</h1>
+            </div>
+
+            <div class="containerOuterMost2-3">
+                <div class="containerFlex2-3">
+                </div>
+                <div class="containerFlex2-3">
+                    <div class="innerFlexbox2">
+                        <img src="popicon.png" height="50" width="50">
+                        <h1 id="AvgCchange">Avg <br>population</br> change</h1>
+                    </div>
+                        <div class="innerFlexbox3">
+                            <h1 class="avgValue"> 100M</h1>
+                        </div>
+                    </div>
+            </div>
     </div>
 
-    <div class="output-global">
-        <h1>From</h1>
+    <div class="output-global-temp">
+        <h1 class="From">From</h1>
             <div class="innerFlexbox1">
                 <h1>startYear</h1>
                 <img src="arrow.png" class="arrow" width="40px" height="20px">
@@ -68,21 +146,12 @@
                 <div class="containerFlex2-3">
                 <div class="innerFlexbox2">
                     <img src="tempicon.png" height="50" width="50">
-                    <h1 id="AvgCchange">Avg &#176 C change</h1>
+                    <h1 id="AvgCchange">Avg &#176 C </br>change</h1>
                 </div>
                     <div class="innerFlexbox3">
-                        <h1 class="avgValue">//avgTempChange</h1>
+                        <h1 class="avgValue">+1.238 &#176 C</h1>
                     </div>
                 </div>
-                <div class="containerFlex2-3">
-                    <div class="innerFlexbox2">
-                        <img src="tempicon.png" height="50" width="50">
-                        <h1 id="AvgCchange">Avg population change</h1>
-                    </div>
-                        <div class="innerFlexbox3">
-                            <h1 class="avgValue">//avgPopChange</h1>
-                        </div>
-                    </div>
             </div>
     </div>
 
