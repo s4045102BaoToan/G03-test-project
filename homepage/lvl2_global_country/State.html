@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Temp Machine</title>
-    <link rel="icon" type="image/x-icon" href="/html/icon.ico">
+<title>Temp Machine</title>
+<link rel="icon" type="image/x-icon" href="/html/icon.ico">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="city.css">
+
 </head>
+
 <body>
     <div class="top-menu">
         <div class="logo-and-name">
@@ -22,7 +24,7 @@
                 <button class="dropbtn">Basic</button>
                 <div class="basic-content">
                     <a href="/homepage/lvl2_global_country/Global.html">Global</a>
-                    <a href="Country2A.html">Country</a>
+                    <a href="/homepage/Country2A.html">Country</a>
                     <a href="/homepage/lvl2_global_country/State.html">State</a>
                     <a href="/homepage/lvl2_global_country/City.html">City</a>
                 </div>
@@ -39,76 +41,73 @@
             <a href="/html/aboutus.html">About</a>
         </div>
     </div>
-    
-    <!---------------------------------------------------------------------------------------------------------->
-    <div class="Subtask">
-    <div class="tableInfo">
-        <h1 id="subtasktitle">Data available from //startyear// to //endyear//</h1>
-    </div>
-    <div class="subtask1A">
-        <table class="table1">
-                <div class="global">Global Temperature</div><br>
-                <img src="1AIconTemp.png" class="pic" alt="" height="50" width="50">
-
-        <tr>
-            <th>starYear</th>
-            <th>degree Celcius</th>
-        </tr>
-        <tr>
-            <th>endYear</th>
-            <th>degree Celcius</th>
-        </tr>
-
-        </table>
-        <table class="table2">     
-            Land and Ocean Temperature<br>
-                <img src="1AIconTemp.png" class="pic" alt="" height="50" width="50">           
-                
-                    <tr>
-                        <th>starYear</th>
-                        <th>degree Celcius</th>
-                    </tr>
-                    <tr>
-                        <th>endYear</th>
-                        <th>degree Celcius</th>
-                    </tr>
-            </table>
-
-            <table class="table3">
-                Global population<br>
-                    <img src="1AIconPop.png" class="pic" alt="" height="50" width="50">
-                
-
-        <tr>
-            <th>starYear</th>
-            <th>numPeople</th>
-        </tr>
-        <tr>
-            <th>endYear</th>
-            <th>degree Celcius</th>
-        </tr>
-
-        </table>
-    </div>
-    <div class="subtask1A">
-        
-        
-    </div>
-    </div>
 
     <!---------------------------------------------------------------------------------------------------------->
 
-    <div class="SubtaskStart">
-        <img src="image.png" class="bear" alt="Logo" width="600" height="400">
-        <div class="mid">
-        <div class="in">Global temperature has been rising</div>
-        <div class="normal">We provide a database of records in the span of 260 years on global temperatures and population change.<br></div>
-        <div class="link">For more information
-        <a href="#">Start now.</a>
-        </div>     
-        </div>  
-        </div>
-        
+    <body-country>
+
+        <form action="#" method="get">
+            <button type="submit" class="search-button">
+                <table class="option-table">
+                    <tbody>
+                        <tr>
+                            <td>Country</td>
+                            <td>
+                                <select name="country">
+                                    <option value="" selected disabled>Select a country</option>
+                                </select>
+                            </td>
+                            <td>City</td>
+                            <td>
+                                <select name="country">
+                                    <option value=""selected disabled>Select a city</option>
+                                </select>
+                            </td>
+                            <td>State</td>
+                            <td>
+                                <select name="country">
+                                    <option value=""selected disabled>Select a state</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Year</td>
+                            <td>
+                                <select name="Year">
+                                    <option value="" selected disabled>Select a year</option>
+                                </select>
+                            </td>
+                            <td>To</td>
+                            <td>
+                                <select name="Year">
+                                    <option value="#">Select a year</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sort by</td>
+                            <td>
+                                <select name="sort by">
+                                    <option value="#">Option</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Order by</td>
+                            <td>
+                                <select name="Order by">
+                                    <option value="#">Option</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="search-form">
+                    Search</div>
+            </button>
+        </form>
+
+    </body-country>
+
     <!---------------------------------------------------------------------------------------------------------->
 
     <footer>
@@ -148,8 +147,9 @@
                 <p>&copy; 2024 Temp Machine. All rights reserved.</p>
             </div>
         </div>
-      
+
     </footer>
-    
+
 </body>
+
 </html>
