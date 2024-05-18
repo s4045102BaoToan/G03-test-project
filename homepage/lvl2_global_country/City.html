@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Temp Machine</title>
-    <link rel="icon" type="image/x-icon" href="/html/icon.ico">
+<title>Temp Machine</title>
+<link rel="icon" type="image/x-icon" href="/html/icon.ico">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="lvl2.css">
-    
+    <link rel="stylesheet" href="city.css">
+
 </head>
 
 <body>
@@ -40,53 +41,67 @@
             <a href="/html/aboutus.html">About</a>
         </div>
     </div>
-    <div class="menuSpace">
-    </div>
-</body>
-    
+
     <!---------------------------------------------------------------------------------------------------------->
-    
 
-    
-    <div class="outputType">
-        <label for="raw/%">Output</label>
-            <select name="selctOutput" id="raw/%">
-                <option value="Raw">Raw</option>
-                <option value="Percentage">%</option>
-            </select>   
-    </div>
+    <body-country>
 
-    <div class="output-global">
-        <h1>From</h1>
-            <div class="innerFlexbox1">
-                <h1>startYear</h1>
-                <img src="arrow.png" class="arrow" width="40px" height="20px">
-                <h1>endYear</h1>
-            </div>
+        <form action="#" method="get">
+            <button type="submit" class="search-button">
+                <table class="option-table">
+                    <tbody>
+                        <tr>
+                            <td>Country</td>
+                            <td>
+                                <select name="country">
+                                    <option value="" selected disabled>Select a country</option>
+                                </select>
+                            </td>
+                            <td>City</td>
+                            <td>
+                                <select name="country">
+                                    <option value=""selected disabled>Select a city</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Year</td>
+                            <td>
+                                <select name="Year">
+                                    <option value="" selected disabled>Select a year</option>
+                                </select>
+                            </td>
+                            <td>To</td>
+                            <td>
+                                <select name="Year">
+                                    <option value="#">Select a year</option>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sort by</td>
+                            <td>
+                                <select name="sort by">
+                                    <option value="#">Option</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Order by</td>
+                            <td>
+                                <select name="Order by">
+                                    <option value="#">Option</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="search-form">
+                    Search</div>
+            </button>
+        </form>
 
-            <div class="containerOuterMost2-3">
-                <div class="containerFlex2-3">
-                <div class="innerFlexbox2">
-                    <img src="tempicon.png" height="50" width="50">
-                    <h1 id="AvgCchange">Avg &#176 C change</h1>
-                </div>
-                    <div class="innerFlexbox3">
-                        <h1 class="avgValue">//avgTempChange</h1>
-                    </div>
-                </div>
-                <div class="containerFlex2-3">
-                    <div class="innerFlexbox2">
-                        <img src="tempicon.png" height="50" width="50">
-                        <h1 id="AvgCchange">Avg population change</h1>
-                    </div>
-                        <div class="innerFlexbox3">
-                            <h1 class="avgValue">//avgPopChange</h1>
-                        </div>
-                    </div>
-            </div>
-    </div>
+    </body-country>
 
-    
     <!---------------------------------------------------------------------------------------------------------->
 
     <footer>
@@ -118,16 +133,17 @@
                 <h3>About us</h3>
                 <div class="aboutus-content">
                     <ul>
-                        <li><a href="">Our mission</a></li>
-                        <li><a href="">Persona</a></li>
-                        <li><a href="">Team members</a></li>
+                        <li><a href="/html/aboutus.html">Our mission</a></li>
+                        <li><a href="/html/aboutus.html">Persona</a></li>
+                        <li><a href="/html/aboutus.html">Team members</a></li>
                     </ul>
                 </div>
                 <p>&copy; 2024 Temp Machine. All rights reserved.</p>
             </div>
         </div>
-      
+
     </footer>
-    
+
+</body>
 
 </html>
