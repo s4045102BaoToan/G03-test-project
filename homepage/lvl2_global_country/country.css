@@ -68,6 +68,82 @@ form {
     margin-top: 100px;
     margin-bottom: 140px;
 }
+
+/*------------------------------------------------Output-------------------------------------------*/
+.output-global-pop, .output-global-temp {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 130px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px auto;
+}
+.From{
+    font-size: 100px;
+    font-style: italic;
+    margin: 35px;
+}
+.outputType {
+    position:relative;
+    
+}
+.containerOuterMost2-3{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.innerFlexbox1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.innerFlexbox2 {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+    resize: both;
+    margin-left: 30px;
+    width: auto;
+    font-size: 20px;
+}
+.innerFlexbox3{
+    position: relative;
+    font-size: 30px;
+    font-style: bold;
+    word-wrap: break-word;
+    resize: both;
+    width: auto;
+    margin: 50px;
+}
+.containerFlex2-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+#AvgCchange{
+    margin: 0px 5px 0px 5px;
+    word-wrap: break-word;
+}
+.avgValue{
+    margin: 0px;
+}
+.arrow {
+    transform: rotate(90deg);
+}
 /*----------------------------------------------------------------------------*/
 .top-menu {
     position: fixed;
