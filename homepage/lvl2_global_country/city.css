@@ -177,6 +177,9 @@ form {
     padding: 10px 20px; 
     margin: 20px auto;
 }
+#UoM {
+    width: 200px;
+}
 
 /*----------------------------------------------------------------------------*/
 .menuSpace{
@@ -198,8 +201,6 @@ form {
     z-index: 1000; /* Ensure the menu stays above other content */
     
 }
-
-
 .logo-and-name {
     display: flex;
     align-items: center;
