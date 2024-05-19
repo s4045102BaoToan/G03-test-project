@@ -1,4 +1,4 @@
-/*-------------------------------------------------------Content---------------------------------------------------------*/
+/*----------------------------------Nav bar----------------------------------*/
 .nav-container{
     display: flex;
     justify-content: center;
@@ -26,96 +26,13 @@
     transform: scale(1.2);
     cursor: pointer;
 }
-#glo.navigation { /*TODO: CHANGE #ID BASE ON THE CURRENT PAGE THIS IS IN*/
+#sta.navigation {  /*TODO: CHANGE #ID BASE ON THE CURRENT PAGE THIS IS IN*/
     background-color: #b8b8b8;
 }
 
-/*-----------Input form------------*/
-body {  
-    margin-bottom: 20px;
-    height: auto;
-}
-.Title{
-    position:relative;
-    margin-right: 20px;
-    text-align: center;
-}
-h1.Title{
-    margin: 10px;
-}
-.option-table {
-    width: 50%;
-    margin: 20px 40px;
-    border-collapse: collapse;
-    width: 100vh;
-}
-
-.option-table th, .option-table td {
-    margin: 30px;
-    text-align: left;
-}
-.option-table select:hover{
-    cursor: pointer;
-}
-.option-table th {
-    background-color: #f2f2f2;
-}
-select {
-    width: 80%;
-    padding: 5px;
-    margin: 5px;
-    box-sizing: border-box;
-}
-.container {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-form {
-    display: flex;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-}
-.input{
-    justify-self: center;
-}
-#UoM {
-    width: 200px;
-}
-
-.search-form {
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
-    border-style: solid;
-    font-size: larger;
-    width: 50%;
-    margin: 0 auto; 
-    padding: 10px; 
-    box-sizing: border-box;
-    border-radius: 10px; 
-    text-align: center; 
-    cursor: pointer;
-}
-
-.search-button {
-    position: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    border: 2px solid #ccc; 
-    border-radius: 10px;
-    color: black;
-    padding: 10px 20px; 
-    margin: 20px auto;
-    
-    
-}
 /*------------------------------------------------Output-------------------------------------------*/
+
+
 .output-global-pop, .output-global-temp {
     display:flex;
     flex-direction: row;
@@ -192,7 +109,79 @@ form {
 }
 
 
-/*------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------*/
+body {
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.option-table {
+    width: 50%;
+    margin: 20px 40px;
+    border-collapse: collapse;
+    width: 100vh;
+}
+
+.option-table th, .option-table td {
+    margin: 30px;
+    text-align: left;
+}
+.option-table select:hover{
+    cursor: pointer;
+}
+.option-table th {
+    background-color: #f2f2f2;
+}
+select {
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+.body-country {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 130px 100px 30px;
+    display: flex;
+    position: fixed;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.search-form {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    border-style: solid;
+    font-size: larger;
+    width: 50%;
+    margin: 0 auto; 
+    padding: 10px; 
+    box-sizing: border-box;
+    border-radius: 10px; 
+    text-align: center; 
+    cursor: pointer;
+}
+
+.search-button {
+    position: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    color: black;
+    padding: 10px 20px; 
+    margin: 20px auto;
+}
+/*----------------------------------------------------------------------------*/
 .menuSpace{
     position: relative;
     height: 76px;
