@@ -31,7 +31,33 @@
 }
 
 /*------------------------------------------------Output-------------------------------------------*/
-
+.stateOut{
+    display: flex;
+    align-items: center;
+}
+.rank{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    border-color:black;
+    border-style: solid;
+    border-radius: 15px;
+    height: 156px;
+    margin:10px 10px 10px auto;
+}
+#ranking{
+    width:auto;
+    text-align: center;
+    margin: 2px;
+    
+}
+#rankNum{
+    font-size: 80px;
+    width:fit-content;
+    margin: 0px 5px;
+    text-align: center;
+}
 
 .output-global-pop, .output-global-temp {
     display:flex;
@@ -44,7 +70,7 @@
     border-style: solid;
     border-radius: 15px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 20px auto 20px 0px;
 }
 .From{
     font-size: 100px;
