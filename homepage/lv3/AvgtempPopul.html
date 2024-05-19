@@ -6,9 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="AvgtempPopul.css">
     
 </head>
+
 <body>
     <div class="top-menu">
         <div class="logo-and-name">
@@ -39,76 +40,97 @@
             <a href="/html/aboutus.html">About</a>
         </div>
     </div>
+    <div class="menuSpace">
+    </div>
+
     
-    <!---------------------------------------------------------------------------------------------------------->
-    <div class="Subtask">
-    <div class="tableInfo">
-        <h1 id="subtasktitle">Data available from //startyear// to //endyear//</h1>
-    </div>
-    <div class="subtask1A">
-        <table class="table1">
-                <div class="global">Global Temperature</div><br>
-                <img src="1AIconTemp.png" class="pic" alt="" height="50" width="50">
-
-        <tr>
-            <th>starYear</th>
-            <th>degree Celcius</th>
-        </tr>
-        <tr>
-            <th>endYear</th>
-            <th>degree Celcius</th>
-        </tr>
-
-        </table>
-        <table class="table2">     
-            Land and Ocean Temperature<br>
-                <img src="1AIconTemp.png" class="pic" alt="" height="50" width="50">           
+    <!----------------------------------------------------CONTENT------------------------------------------------------>
+    
+    <body-country>
+        <div class="container">        
+        <form action="#" method="get">
+            <div class="input">
+                <button type="submit" class="search-button">
+                    <table class="option-table">
+                        <tbody>
+                            <tr>
+                                <td>Number of region</td>
+                                <td>
+                                    <select name="Number of region">
+                                        <option value="" selected disabled>Options</option>
+                                        <option value="#">Option</option>
+                                        
+                                    </select>
+                                </td>
+                                <td>Number of period</td>
+                                <td>
+                                    <select name="Number of period">
+                                        <option value="#">Options</option>
                 
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Year length</td>
+                                <td>
+                                    <select name="Year length">
+                                        <option value="#">Choose period</option>
+                                        
+                                    </select>
+                                </td>
+                            
+                                <td>Start year</td>
+                                <td>
+                                    <select name="Start year">
+                                        <option value="#">Choose period</option>
+                                        
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sort by</td>
+                                <td>
+                                    <select name="sort by">
+                                        <option value="#">Options</option>
+                                        
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="search-form">
+                    Search</div></button>
+                    </div>
+                </form>
+                </div>
+    </body-country>
+
+
+    <!----------------------------------------------------------------------------------------------------------->
+        <body>
+            <table>
+                <thead>
                     <tr>
-                        <th>starYear</th>
-                        <th>degree Celcius</th>
+                        <th>Rank</th>
+                        <th>Region</th>
+                        <th>Average Temperature</th>
+                        <th>Average Population</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
-                        <th>endYear</th>
-                        <th>degree Celcius</th>
+                        <td class="rank"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
+                    
+                </tbody>
             </table>
+        </body>
+    
 
-            <table class="table3">
-                Global population<br>
-                    <img src="1AIconPop.png" class="pic" alt="" height="50" width="50">
-                
-
-        <tr>
-            <th>starYear</th>
-            <th>numPeople</th>
-        </tr>
-        <tr>
-            <th>endYear</th>
-            <th>degree Celcius</th>
-        </tr>
-
-        </table>
-    </div>
-    <div class="subtask1A">
-        
-        
-    </div>
-    </div>
-
-    <!---------------------------------------------------------------------------------------------------------->
-
-    <div class="SubtaskStart">
-        <img src="image.png" class="bear" alt="Logo" width=30% height=50%>
-        <div class="mid">
-        <div class="in">Global temperature has been rising</div>
-        <div class="normal">We provide a database of records in the span of 260 years on global temperatures and population change.<br></div>
-        <div class="link">For more information
-        <a href="#">Start now.</a>
-        </div>     
-        </div>  
-        </div>
-        
+    
     <!---------------------------------------------------------------------------------------------------------->
 
     <footer>

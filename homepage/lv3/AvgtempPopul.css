@@ -1,9 +1,17 @@
-body {
-    margin-top: 130px;
-    margin-bottom: 30px;
+/*-------------------------------------------------------Content---------------------------------------------------------*/
+/*-----------Input form------------*/
+body {  
+    margin-bottom: 20px;
     height: auto;
 }
-
+.Title{
+    position:relative;
+    margin-right: 20px;
+    text-align: center;
+}
+h1.Title{
+    margin: 10px;
+}
 .option-table {
     width: 50%;
     margin: 20px 40px;
@@ -27,21 +35,26 @@ select {
     margin: 5px;
     box-sizing: border-box;
 }
-.body-country {
+.container {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 130px 100px 30px;
     display: flex;
-    position: fixed;
-
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 form {
     display: flex;
-    justify-content: center;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    flex-direction: column;
-    width: 100%; 
+}
+.input{
+    justify-self: center;
+    margin: 60px auto;
+}
+#UoM {
+    width: 200px;
 }
 
 .search-form {
@@ -59,16 +72,120 @@ form {
 }
 
 .search-button {
+    position: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     border: 2px solid #ccc; 
     border-radius: 10px;
     color: black;
     padding: 10px 20px; 
-    display: inline-block;
-    margin-top: 100px;
-    margin-bottom: 140px;
+    margin: 20px auto;
+    
+    
 }
-/*----------------------------------------------------------------------------*/
+/*------------------------------------------------Output-------------------------------------------*/
+.output-global-pop, .output-global-temp {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 130px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px auto;
+}
+.From{
+    font-size: 100px;
+    font-style: italic;
+    margin: 35px;
+}
+.outputType {
+    position:relative;
+    
+}
+.containerOuterMost2-3{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.innerFlexbox1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.innerFlexbox2 {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+    resize: both;
+    margin-left: 30px;
+    width: auto;
+    font-size: 20px;
+}
+.innerFlexbox3{
+    position: relative;
+    font-size: 30px;
+    font-style: bold;
+    word-wrap: break-word;
+    resize: both;
+    width: auto;
+    margin: 50px;
+}
+.containerFlex2-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+#AvgCchange{
+    margin: 0px 5px 0px 5px;
+    word-wrap: break-word;
+}
+.avgValue{
+    margin: 0px;
+}
+.arrow {
+    transform: rotate(90deg);
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .rank {
+            font-weight: bold;
+            color: #ff5722;
+        }
+/*------------------------------------------------------------------------------------------------------------------------*/
+.menuSpace{
+    position: relative;
+    height: 76px;
+    width:100%;
+}
 .top-menu {
     position: fixed;
     top: 0;
@@ -167,7 +284,12 @@ form {
     font-weight: bold;
     margin-right:40px;
 }
-/*-----------------------------------------------------------------------------*/
+.body{
+    position: relative;
+}
+
+
+/*FOOTER*/
 .sitemap-footer {
     position: relative;
     top:8vh;
@@ -176,11 +298,11 @@ form {
     justify-content: space-between;
     padding: 20px 20px 10px 20px;
     background-color: #f2f2f2;
-    margin: 20px auto;
-    
+    margin-top: 70px;
     border-radius: 7px;
     border-top: 2px solid black;
 }
+
 .logo-container-foot {
     margin-right: 20px;
 }
