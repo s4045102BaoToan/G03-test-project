@@ -1,4 +1,35 @@
 /*-------------------------------------------------------Content---------------------------------------------------------*/
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.navigation-tab{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    width: fit-content;
+
+}
+.navigation{
+    font-size: 20px;
+    font-style: oblique;
+    margin: 12px;
+    padding: 15px 20px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #000;
+}
+.navigation:hover{
+    background-color: #b8b8b8;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#glo.navigation {
+    background-color: #b8b8b8;
+}
+
 /*-----------Input form------------*/
 body {  
     margin-bottom: 20px;
