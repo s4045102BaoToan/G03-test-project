@@ -62,7 +62,7 @@
 .output-global-pop, .output-global-temp {
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 1000px;
     height: 130px;
@@ -73,9 +73,10 @@
     margin: 20px auto 20px 0px;
 }
 .From{
-    font-size: 100px;
+    font-size: 30px;
     font-style: italic;
     margin: 35px;
+    font-weight: 400;
 }
 .outputType {
     position:relative;
@@ -126,6 +127,8 @@
 #AvgCchange{
     margin: 0px 5px 0px 5px;
     word-wrap: break-word;
+    font-size: 30px;
+    font-weight: 400;
 }
 .avgValue{
     margin: 0px;
