@@ -187,6 +187,32 @@ tr:nth-child(even) {
     font-weight: bold;
     margin-right:40px;
 }
+/*--------------------------------------out put------------------------------------*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.rank {
+    font-weight: bold;
+    color: #ff5722;
+}
+h1 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 /*-----------------------------------------------------------------------------*/
 .sitemap-footer {
     position: relative;
