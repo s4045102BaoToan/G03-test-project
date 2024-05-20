@@ -1,5 +1,144 @@
+/*----------------------------------Nav bar----------------------------------*/
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.navigation-tab{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    width: fit-content;
+
+}
+.navigation{
+    font-size: 20px;
+    font-style: oblique;
+    margin: 12px;
+    padding: 15px 20px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #000;
+}
+.navigation:hover{
+    background-color: #b8b8b8;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#sta.navigation {  /*TODO: CHANGE #ID BASE ON THE CURRENT PAGE THIS IS IN*/
+    background-color: #b8b8b8;
+}
+
+/*------------------------------------------------Output-------------------------------------------*/
+.stateOut{
+    display: flex;
+    align-items: center;
+}
+.rank{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    border-color:black;
+    border-style: solid;
+    border-radius: 15px;
+    height: 156px;
+    margin:10px 10px 10px auto;
+}
+#ranking{
+    width:auto;
+    text-align: center;
+    margin: 2px;
+    
+}
+#rankNum{
+    font-size: 80px;
+    width:fit-content;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+.output-global-pop, .output-global-temp {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 130px;
+    border-color:black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px auto 20px 0px;
+}
+.From{
+    font-size: 100px;
+    font-style: italic;
+    margin: 35px;
+}
+.outputType {
+    position:relative;
+    
+}
+.containerOuterMost2-3{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.innerFlexbox1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.innerFlexbox2 {
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+    resize: both;
+    margin-left: 30px;
+    width: auto;
+    font-size: 20px;
+}
+.innerFlexbox3{
+    position: relative;
+    font-size: 30px;
+    font-style: bold;
+    word-wrap: break-word;
+    resize: both;
+    width: auto;
+    margin: 50px;
+}
+.containerFlex2-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+#AvgCchange{
+    margin: 0px 5px 0px 5px;
+    word-wrap: break-word;
+}
+.avgValue{
+    margin: 0px;
+}
+.arrow {
+    transform: rotate(90deg);
+}
+#UoM {
+    width: 200px;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
 body {
-    margin-top: 130px;
     margin-bottom: 30px;
     height: auto;
 }
@@ -59,36 +198,23 @@ form {
 }
 
 .search-button {
+    position: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     border: 2px solid #ccc; 
     border-radius: 10px;
     color: black;
     padding: 10px 20px; 
-    display: inline-block;
-    margin-top: 100px;
-    margin-bottom: 140px;
+    margin: 20px auto;
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 12px;
-    border: 1px solid #ddd;
-    text-align: center;
-}
-th {
-    background-color: #f4f4f4;
-}
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-.rank {
-    font-weight: bold;
-    color: #ff5722;
-}
-
 /*----------------------------------------------------------------------------*/
+.menuSpace{
+    position: relative;
+    height: 76px;
+    width:100%;
+}
 .top-menu {
     position: fixed;
     top: 0;
@@ -187,7 +313,12 @@ tr:nth-child(even) {
     font-weight: bold;
     margin-right:40px;
 }
-/*-----------------------------------------------------------------------------*/
+.body{
+    position: relative;
+}
+
+
+/*FOOTER*/
 .sitemap-footer {
     position: relative;
     top:8vh;
@@ -196,11 +327,11 @@ tr:nth-child(even) {
     justify-content: space-between;
     padding: 20px 20px 10px 20px;
     background-color: #f2f2f2;
-    margin: 20px auto;
-    
+    margin-top: 30px;
     border-radius: 7px;
     border-top: 2px solid black;
 }
+
 .logo-container-foot {
     margin-right: 20px;
 }

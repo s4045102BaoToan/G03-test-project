@@ -1,4 +1,35 @@
 /*-------------------------------------------------------Content---------------------------------------------------------*/
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.navigation-tab{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    width: fit-content;
+
+}
+.navigation{
+    font-size: 20px;
+    font-style: oblique;
+    margin: 12px;
+    padding: 15px 20px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #000;
+}
+.navigation:hover{
+    background-color: #b8b8b8;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#glo.navigation { /*TODO: CHANGE #ID BASE ON THE CURRENT PAGE THIS IS IN*/
+    background-color: #b8b8b8;
+}
+
 /*-----------Input form------------*/
 body {  
     margin-bottom: 20px;
@@ -35,17 +66,17 @@ select {
     margin: 5px;
     box-sizing: border-box;
 }
-.body-country {
+.container {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 130px 100px 30px;
     display: flex;
-    position: fixed;
-
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 form {
-    display: grid;
+    display: flex;
     grid-template-columns: auto 1fr;
     align-items: center;
 }
@@ -71,23 +102,28 @@ form {
 }
 
 .search-button {
-    position: relative;
+    position: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     border: 2px solid #ccc; 
     border-radius: 10px;
     color: black;
     padding: 10px 20px; 
-    display: inline-block;
-    margin: 20px;
-    width:fit-content;
+    margin: 20px auto;
+    
+    
 }
+
 /*------------------------------------------------Output-------------------------------------------*/
 .output-global-pop, .output-global-temp {
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: fit-content;
+    width: 1000px;
+    height: 130px;
     border-color:black;
     border-style: solid;
     border-radius: 15px;
