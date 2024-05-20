@@ -152,10 +152,11 @@
 }
 
 .link {
-    display: inline;
     color: black;
     font-size: 24px;
     padding-top: 5px;
+    width: inherit;
+    text-align: center;
 }
 
 .mid {

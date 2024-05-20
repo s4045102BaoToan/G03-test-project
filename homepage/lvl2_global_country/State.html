@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="city.css">
+    <link rel="stylesheet" href="state.css">
 
 </head>
 
@@ -24,7 +24,7 @@
                 <button class="dropbtn">Basic</button>
                 <div class="basic-content">
                     <a href="/homepage/lvl2_global_country/Global.html">Global</a>
-                    <a href="/homepage/Country2A.html">Country</a>
+                    <a href="/homepage/lvl2_global_country/Country2A.html">Country</a>
                     <a href="/homepage/lvl2_global_country/State.html">State</a>
                     <a href="/homepage/lvl2_global_country/City.html">City</a>
                 </div>
@@ -32,18 +32,28 @@
             <div class="dropdown">
                 <button class="dropbtn">Advance</button>
                 <div class="advance-content">
-                    <a href="">Temperature &amp; population changes</a>
+                    <a href="/homepage/lv3/AvgtempPopul.html">Temperature &amp; population changes</a>
                     <a href="/homepage/lv3/period similar.html">Periods with similar temperature &amp; population</a>
                 </div>
             </div>
         </div>
         <div class="about">
             <a href="/html/aboutus.html">About</a>
-        </div>
     </div>
+        </div>
+        <div class="menuSpace">
+        </div>
 
     <!---------------------------------------------------------------------------------------------------------->
 
+    <div class="nav-container">
+        <div class="navigation-tab">
+            <a href="/homepage/lvl2_global_country/Global.html" class="navigation" id="glo">GLOBAL</a>
+            <a href="/homepage/lvl2_global_country/Country2A.html" class="navigation" id="coun">COUNTRY</a>
+            <a href="/homepage/lvl2_global_country/State.html" class="navigation" id="sta">STATE</a>
+            <a href="/homepage/lvl2_global_country/City.html" class="navigation" id="city">CITY</a>
+        </div>
+    </div>
     <body-country>
 
         <form action="#" method="get">
@@ -55,12 +65,6 @@
                             <td>
                                 <select name="country">
                                     <option value="" selected disabled>Select a country</option>
-                                </select>
-                            </td>
-                            <td>City</td>
-                            <td>
-                                <select name="country">
-                                    <option value=""selected disabled>Select a city</option>
                                 </select>
                             </td>
                             <td>State</td>
@@ -98,7 +102,17 @@
                                     <option value="#">Option</option>
                                 </select>
                             </td>
+                            
                         </tr>
+                        <td id="UoM">Unit of Measurement</td>
+                                    <td>
+                                        <select name="UoM">
+                                            <option value="" selected disabled>Unit of Measurement</option>
+                                            <option value="Raw">Raw</option>
+                                            <option value="Percentage">%</option>
+    
+                                        </select>
+                                    </td>
                     </tbody>
                 </table>
                 <div class="search-form">
@@ -107,6 +121,62 @@
         </form>
 
     </body-country>
+<!--------------------------OutPut--------------------------->
+<div class="stateOut">
+<div class="rank">
+    <h1 id="ranking">Ranking</h1>
+    <h1 id="rankNum">1st</h1>
+</div>
+    <div class="output-global-pop">
+        <h1 class="From">From</h1>
+            <div class="innerFlexbox1">
+                <h1>startYear</h1>
+                <img src="arrow.png" class="arrow" width="40px" height="20px">
+                <h1>endYear</h1>
+            </div>
+
+            <div class="containerOuterMost2-3">
+                <div class="containerFlex2-3">
+                </div>
+                <div class="containerFlex2-3">
+                    <div class="innerFlexbox2">
+                        <img src="popicon.png" height="50" width="50">
+                        <h1 id="AvgCchange">Avg <br>population</br> change</h1>
+                    </div>
+                        <div class="innerFlexbox3">
+                            <h1 class="avgValue"> 100M</h1>
+                        </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+<div class="stateOut">
+    <div class="rank">
+        <h1 id="ranking">Ranking</h1>
+        <h1 id="rankNum">1st</h1>
+    </div>
+    <div class="output-global-temp">
+        <h1 class="From">From</h1>
+            <div class="innerFlexbox1">
+                <h1>startYear</h1>
+                <img src="arrow.png" class="arrow" width="40px" height="20px">
+                <h1>endYear</h1>
+            </div>
+
+            <div class="containerOuterMost2-3">
+                <div class="containerFlex2-3">
+                <div class="innerFlexbox2">
+                    <img src="tempicon.png" height="50" width="50">
+                    <h1 id="AvgCchange">Avg &#176 C </br>change</h1>
+                </div>
+                    <div class="innerFlexbox3">
+                        <h1 class="avgValue">+1.238 &#176 C</h1>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
 
     <!---------------------------------------------------------------------------------------------------------->
 
@@ -130,7 +200,7 @@
                 <h3>Advance</h3>
                 <div class="sadvance-content">
                     <ul>
-                        <li><a href="">Temperature changes <br>in different time periods</a></li>
+                        <li><a href="/homepage/lv3/AvgtempPopul.html">Temperature changes <br>in different time periods</a></li>
                         <li><a href="/homepage/lv3/period similar.html">Periods with similar <br>population and temperature</a></li>
                     </ul>
                 </div>

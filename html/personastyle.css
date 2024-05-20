@@ -166,13 +166,13 @@ h1{
 .members1{
     display:flex;
    background-color: white;
-   margin: 0px 500px 0px 500px;
+   margin: 0px 400px 0px 400px;
    justify-content: space-between;
 }
 .members2{
     display:flex;
    background-color: white;
-   margin: 30px 500px 0px 500px;
+   margin: 50px 500px 0px 500px;
    justify-content: space-around;
 }
 
